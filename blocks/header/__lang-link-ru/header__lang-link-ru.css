@@ -1,0 +1,26 @@
+.header__lang-link-ru {
+  color: white;
+  display: inline;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  min-width: 22px;
+  min-height: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  transition: opacity 1s .1s;
+}
+
+.header__lang-link-ru:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 768px) {
+  .header__lang-link-ru {
+    min-width: 30px;
+    min-height: 28px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
