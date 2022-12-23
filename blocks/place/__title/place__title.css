@@ -1,4 +1,4 @@
-.place_title {
+.place__title {
   min-width: 288px;
   min-height: 35px;
   font-size: 32px;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .place_title {
+  .place__title {
     grid-column: 1;
     padding: 0 0 48px;
     font-size: 42px;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .place_title {
+  .place__title {
     padding: 0 0 48px;
     font-size: 72px;
     font-weight: 900;
@@ -33,7 +33,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .place_title {
+  .place__title {
     max-width: 460px;
   }
 }

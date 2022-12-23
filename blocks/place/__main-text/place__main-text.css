@@ -1,24 +1,24 @@
-.place_main-text {
+.place__main-text {
   padding-left:  16px;
   padding-right: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .place_main-text {
+  .place__main-text {
     padding-left: 28px;
     padding-right: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .place_main-text {
+  .place__main-text {
     padding-left: 32px;
     padding-right: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .place_main-text {
+  .place__main-text {
     padding-left: 40px;
     padding-right: 0;
   }

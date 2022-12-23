@@ -4,19 +4,19 @@
 }
 
 @media screen and (min-width: 768px) {
-  .header {
+  .places {
     min-width: 720px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .header {
+  .places {
     min-width: 928px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
+  .places {
     min-width: 984px;
   }
 }

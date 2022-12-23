@@ -1,10 +1,10 @@
-.place_website {
+.place__website {
   padding-top: 32px;
   padding-left: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .place_website {
+  .place__website {
     grid-column: 2;
     grid-auto-flow: row;
     padding-top: 0;
@@ -15,7 +15,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .place_website {
+  .place__website {
     padding-top: 30px;
     padding-left: 32px;
     align-self: flex-end;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .place_website {
+  .place__website {
     padding-left: 40px;
   }
 }
