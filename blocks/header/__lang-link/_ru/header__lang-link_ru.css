@@ -1,4 +1,4 @@
-.lang-link_ru {
+.header__lang-link_ru {
   color: white;
   display: inline;
   text-decoration: underline;
@@ -8,12 +8,12 @@
   transition: opacity 1s .1s;
 }
 
-.lang-link_ru:hover {
+.header__lang-link_ru:hover {
   opacity: .8;
 }
 
 @media screen and (max-width: 768px) {
-  .lang-link_ru {
+  .header__lang-link_ru {
     min-width: 30px;
     min-height: 28px;
   }
