@@ -1,0 +1,33 @@
+.cover__overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 200px;
+  background-color: rgba(42, 44, 47, 0.3);
+  box-sizing: border-box;
+  z-index: -1;
+  transition: background-color 1s .1s;
+}
+
+.cover__overlay:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    width: calc(100% - 96px);
+    min-height: 740px;
+  }
+}

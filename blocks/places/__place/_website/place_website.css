@@ -1,0 +1,30 @@
+.place_website {
+  padding-top: 32px;
+  padding-left: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .place_website {
+    grid-column: 2;
+    grid-auto-flow: row;
+    padding-top: 0;
+    padding-left: 28px;
+    padding-bottom: 48px;
+    align-self: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place_website {
+    padding-top: 30px;
+    padding-left: 32px;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place_website {
+    padding-left: 40px;
+  }
+}
+

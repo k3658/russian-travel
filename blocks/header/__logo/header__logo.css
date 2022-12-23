@@ -1,0 +1,15 @@
+.header__logo {
+  position: relative;
+  background-image: url(../../../sprint-3-images/header-logo.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 142px;
+  min-height: 42px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__logo {
+    min-width: 176px;
+    min-height: 52px;
+  }
+}
