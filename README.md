@@ -7,3 +7,5 @@
 * CSS 3
 ### Планы
 Проект будет дорабатываться по мере прохождения спринтов.
+### GitHub Pages
+https://k3658.github.io/russian-travel/
