@@ -1,6 +1,6 @@
 .header__logo {
   position: relative;
-  background-image: url(../../../sprint-3-images/header-logo.svg);
+  background-image: url(../../../images/header-logo.svg);
   background-size: cover;
   background-repeat: no-repeat;
   min-width: 142px;
