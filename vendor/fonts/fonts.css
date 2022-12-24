@@ -8,10 +8,10 @@
 
 @font-face {
   font-family: 'Inter';
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
-  src: url(../../vendor/Inter-SemiBold.woff) format("woff");
-  src: url(../../vendor/Inter-SemiBold.woff2) format("woff2");
+  src: url(../../vendor/fonts/Inter-SemiBold.woff) format("woff");
+  src: url(../../vendor/fonts/Inter-SemiBold.woff2) format("woff2");
 }
 
 @font-face {

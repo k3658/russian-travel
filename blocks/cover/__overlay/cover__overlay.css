@@ -1,11 +1,9 @@
 .cover__overlay {
-  position: absolute;
-  top: 0;
+  text-decoration: none;
+  display: block;
   width: 100%;
   min-height: 200px;
   background-color: rgba(42, 44, 47, 0.3);
-  box-sizing: border-box;
-  z-index: -1;
   transition: background-color 1s .1s;
 }
 
@@ -27,7 +25,6 @@
 
 @media screen and (min-width: 1280px) {
   .cover__overlay {
-    width: calc(100% - 96px);
     min-height: 740px;
   }
 }

@@ -6,8 +6,8 @@
 
 @media screen and (min-width: 768px) {
   .place {
-    padding: 73px 24px 0;
     min-width: 720px;
+    padding: 73px 24px 0;
   }
   .place:first-of-type {
     padding-top: 88px;
@@ -16,8 +16,10 @@
 
 @media screen and (min-width: 1024px) {
   .place {
-    padding: 80px 48px 0;
     min-width: 928px;
+    padding-top: 80px;
+    padding-left: 48px;
+    padding-right: 48px;
   }
   .place:first-of-type {
     padding-top: 92px;
@@ -26,10 +28,8 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-    padding: 80px 148px 0;
     min-width: 984px;
-  }
-  .place:first-of-type {
-    padding-top: 92px;
+    padding-left: 148px;
+    padding-right: 148px;
   }
 }
