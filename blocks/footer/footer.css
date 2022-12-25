@@ -17,8 +17,10 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
+    max-width: 1184px;
     padding-top: 92px;
     padding-left: 48px;
     padding-right: 48px;
+    margin: 0 auto;
   }
 }

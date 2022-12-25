@@ -14,21 +14,12 @@
     max-width: 640px;
     font-size: 30px;
     line-height: 36px;
-    padding: 0 64px 56px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead__subtitle {
-    padding-left: 144px;
-    padding-right: 144px;
+    padding-bottom: 56px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__subtitle {
-    padding-left: 172px;
-    padding-right: 172px;
     padding-bottom: 64px;
   }
 }

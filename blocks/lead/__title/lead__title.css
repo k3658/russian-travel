@@ -11,24 +11,9 @@
 
 @media screen and (min-width: 768px) {
   .lead__title {
-    max-width: 720px;
-    font-weight: 900;
+    min-width: 720px;
     font-size: 96px;
     line-height: 100px;
-    padding: 0 24px 32px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .lead__title {
-    padding-left: 104px;
-    padding-right: 104px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .lead__title {
-    padding-left: 132px;
-    padding-right: 132px;
+    padding-bottom: 32px;
   }
 }
