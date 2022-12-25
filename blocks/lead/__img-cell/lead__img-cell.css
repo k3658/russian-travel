@@ -1,4 +1,5 @@
 .lead__img-cell {
+  margin: 0;
   width: fit-content;
 }
 
