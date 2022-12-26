@@ -2,6 +2,7 @@
   display: grid;
   object-fit: cover;
   min-width: 320px;
+  padding-top: 50px;
 }
 
 .place:first-of-type {
@@ -20,7 +21,6 @@
   .place {
     min-width: 928px;
     padding-top: 80px;
-
   }
 }
 

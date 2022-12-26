@@ -1,4 +1,6 @@
 .place__website {
+  display: inline-flex;
+  flex-direction: column;
   padding-top: 32px;
   padding-left: 16px;
 }
@@ -6,11 +8,10 @@
 @media screen and (min-width: 768px) {
   .place__website {
     grid-column: 2;
-    grid-auto-flow: row;
     padding-top: 0;
     padding-left: 28px;
     padding-bottom: 48px;
-    align-self: center;
+    align-self: end;
   }
 }
 
@@ -18,7 +19,6 @@
   .place__website {
     padding-top: 30px;
     padding-left: 32px;
-    align-self: flex-end;
   }
 }
 

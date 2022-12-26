@@ -1,11 +1,6 @@
 .cover {
   box-sizing: border-box;
   overflow: hidden;
-  background: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: content-box;
   margin: 0 auto;
 }
 

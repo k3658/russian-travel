@@ -1,3 +1,4 @@
 .photo-grid__cell {
-  object-fit: cover;
+  object-fit: contain;
+  line-height: 0%;
 }

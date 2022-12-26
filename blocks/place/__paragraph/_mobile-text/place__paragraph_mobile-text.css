@@ -1,0 +1,9 @@
+.place__paragraph_mobile-text {
+  max-width: 265px;
+}
+
+@media screen and (min-width: 321px) {
+  .place__paragraph_mobile-text {
+    max-width: none;
+  }
+}
