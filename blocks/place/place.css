@@ -1,7 +1,6 @@
 .place {
   display: grid;
   object-fit: cover;
-  min-width: 320px;
   padding-top: 50px;
 }
 
@@ -11,7 +10,6 @@
 
 @media screen and (min-width: 768px) {
   .place {
-    min-width: 720px;
     padding-top: 73px;
     padding-bottom: 0;
   }
@@ -19,13 +17,6 @@
 
 @media screen and (min-width: 1024px) {
   .place {
-    min-width: 928px;
     padding-top: 80px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .place {
-    min-width: 984px;
   }
 }
